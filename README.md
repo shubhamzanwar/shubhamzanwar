@@ -1,4 +1,4 @@
-[![banner](./banner.png)](https://shubhamzanwar.github.io)
+[![banner](https://github.com/shubhamzanwar/shubhamzanwar/blob/master/banner.png?raw=true)](https://shubhamzanwar.github.io)
 
 #### Tech I work with
 
