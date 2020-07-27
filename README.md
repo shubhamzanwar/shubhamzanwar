@@ -16,6 +16,6 @@
 
 ```AWS ⛅️``` ```flutter 🎯```
 
-## React out to me 
+## Reach out to me 
 
 [![medium](https://img.shields.io/badge/-grey?logo=medium&style=for-the-badge)](https://medium.com/@zanwar.shubham) [![twitter](https://img.shields.io/badge/-grey?logo=twitter&style=for-the-badge)](https://twitter.com/szanwar22) [![github](https://img.shields.io/badge/-grey?logo=github&style=for-the-badge)](https://github.com/shubhamzanwar) [![stackoverflow](https://img.shields.io/badge/-grey?logo=stackoverflow&style=for-the-badge)](https://stackoverflow.com/users/5301597/sershubham) [![email](https://img.shields.io/badge/-grey?logo=gmail&style=for-the-badge)](mailto:zanwar.shubham@gmail.com)
