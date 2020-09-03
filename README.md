@@ -2,7 +2,7 @@
 
 ## Tech I work with
 
-```react💙``` ```vue💚``` ```js💛``` ```nodejs``` ```react native📱```
+```react💙``` ```vue💚``` ```js💛``` ```nodejs``` ```react native📱``` ```AWS ⛅️```
 
 ## Currently working on
 
@@ -14,7 +14,7 @@
 
 ## Stuff I'm learning
 
-```AWS ⛅️``` ```flutter 🎯```
+```terraform 🛠``` ```flutter 🎯```
 
 ## Reach out to me 
 
