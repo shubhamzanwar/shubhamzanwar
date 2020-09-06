@@ -22,7 +22,7 @@ jobs:
     - name: clone repo
       run: |
         yarn
-        node index.js ${{secrets.GITHUB_ACTIONS_TOKEN}} 41
+        node index.js ${{secrets.ACCESS_TOKEN}} 41
         yarn build
         git clone https://github.com/shubhamzanwar/shubhamzanwar.github.io
         rm -rf ./shubhamzanwar.github.io/*
@@ -31,4 +31,4 @@ jobs:
         cd shubhamzanwar.github.io
         git add .
         git commit --allow-empty -m "updating project from github"
-        git push https://shubhamzanwar:${{secrets.GITHUB_ACTIONS_TOKEN}}@github.com/shubhamzanwar/shubhamzanwar.github.io --all
+        git push https://shubhamzanwar:${{secrets.ACCESS_TOKEN}}@github.com/shubhamzanwar/shubhamzanwar.github.io --all
