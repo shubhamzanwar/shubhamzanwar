@@ -45,6 +45,8 @@ const variables = {
 
 shouldIncludeRepo = (repo) => {
     const topics = repo.repositoryTopics.nodes;
+    
+    if (repo.name === "vue-nodegui") return true;
 
     for (let index = 0; index < topics.length; index++) {
         if(topics[index].topic.name === "portfolio") return true;
