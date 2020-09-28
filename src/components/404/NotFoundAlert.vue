@@ -1,7 +1,7 @@
 <template>
     <div class="spacer">
         <alert type="danger">
-            You have either been linked to a non existing page or have reached a page that i yet to be built.
+            You have either been linked to a non existing page or have reached a page that is yet to be built.
             Either way, you should head <g-link to="/">home</g-link>
         </alert>
     </div>
