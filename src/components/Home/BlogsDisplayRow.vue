@@ -11,6 +11,7 @@
             :date="blog.date"
             :image="blog.image"
             :link="blog.link"
+            :native="blog.native"
         />
     </display-row>
 </template>
@@ -25,7 +26,17 @@ export default {
         DisplayRow,
         BlogCard,
     },
-    data: () => ({ blogs: blogs.slice(0, 3) }),
+    props: {
+        nativeBlogs: {
+            type: Array,
+            default: []
+        }
+    },
+    computed: {
+        blogs() {
+            return [...this.nativeBlogs, ...blogs].slice(0, 3);
+        }
+    },
 }
 </script>
 

@@ -1,6 +1,6 @@
 <template>
     <div class="blog-card" :style="style">
-        <a :href="link" target="_blank">
+        <a :href="link" :target="native ? '' : '_blank'">
             <div class="image" :style="{backgroundImage: `url(${image})`}"></div>
             <div class="description">
                 <div class="title">{{title}}</div>
@@ -20,6 +20,10 @@ export default {
         style: {
             type: Object,
             default: {}
+        },
+        native: {
+            type: Boolean,
+            default: false
         }
     }
 }

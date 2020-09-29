@@ -8,11 +8,30 @@
       <projects-display-row />
       <projects-alert />
       <divider />
-      <blogs-display-row />
+      <blogs-display-row :nativeBlogs="nativeBlogs" />
       <divider />
     </div>
   </Layout>
 </template>
+
+<page-query>
+query {
+  allPost {
+    totalCount
+    edges {
+      node {
+        id
+        title
+        timeToRead
+        subTitle
+        date (format: "DD MMM YYYY")
+        path
+        coverImage
+      }
+    }
+  }
+}
+</page-query>
 
 <script>
 import HomeBanner from "../components/Home/HomeBanner";
@@ -22,10 +41,25 @@ import HomeInfoAlert from "../components/Home/HomeInfoAlert";
 import ProjectsDisplayRow from "../components/Home/ProjectsDisplayRow";
 import ProjectsAlert from "../components/Home/ProjectsAlert";
 import BlogsDisplayRow from "../components/Home/BlogsDisplayRow";
+import { getNativeBlogs } from "../utils/parseNativeBlogs";
 
 export default {
   metaInfo: {
-    title: 'Hello'
+    title: "Shubham Zanwar's Portfolio",
+    meta: [
+      {
+        name: "description",
+        content: "blog and personal portfolio website of Shubham Zanwar"
+      },
+      {
+        property: "og:title",
+        content: "Shubham Zanwar's Portfolio"
+      },
+      {
+        property: "og:description",
+        content: "blog and personal portfolio website of Shubham Zanwar"
+      },
+    ]
   },
   components: {
     HomeBanner,
@@ -35,13 +69,17 @@ export default {
     ProjectsDisplayRow,
     ProjectsAlert,
     BlogsDisplayRow,
-  }
-}
+  },
+  computed: {
+    nativeBlogs() {
+      return getNativeBlogs(this.$page.allPost.edges);
+    },
+  },
+};
 </script>
 
 <style scoped>
-  .home-page {
-    flex: 1;
-  }
-
+.home-page {
+  flex: 1;
+}
 </style>

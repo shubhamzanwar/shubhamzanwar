@@ -8,6 +8,7 @@
             :image="blog.image"
             :link="blog.link"
             :style="{margin: 0}"
+            :native="blog.native"
         />
     </div>
 </template>
@@ -17,7 +18,17 @@ import BlogCard from "../BlogCard";
 import blogs from "../../constants/blogs.json";
 
 export default {
-    data: () => ({blogs}),
+    props: {
+        nativeBlogs: {
+            type: Array,
+            default: []
+        }
+    },
+    computed: {
+        blogs() {
+            return [...this.nativeBlogs, ...blogs];
+        }
+    },
     components: {
         BlogCard,
     }

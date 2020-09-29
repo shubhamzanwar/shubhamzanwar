@@ -1,5 +1,5 @@
 <template>
-  <div class="layout">
+  <div class="layout" :style="'max-width: ' + maxWidth + 'px'">
     <header class="header">
       <strong>
         <g-link to="/" class="brand-btn">SZ</g-link>
@@ -78,5 +78,11 @@
 
 <script>
 export default {
+  props: {
+    maxWidth: {
+      type: Number,
+      default: 1280
+    }
+  }
 }
 </script>
