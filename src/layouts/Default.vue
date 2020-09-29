@@ -4,6 +4,10 @@
       <strong>
         <g-link to="/" class="brand-btn">SZ</g-link>
       </strong>
+      <div>
+        <strong><g-link to="/blog" class="nav-btn">Blog</g-link></strong>
+        <strong><g-link to="/projects" class="nav-btn">Projects</g-link></strong>
+      </div>
     </header>
     <slot/>
     <footer class="footer">
@@ -55,6 +59,14 @@
     font-size: 1.75rem;
     font-weight: normal;
     color: black;
+  }
+
+  .nav-btn {
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: normal;
+    color: black;
+    margin-right: 1rem;
   }
 
   @media (max-width: 1175px) {
