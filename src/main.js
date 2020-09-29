@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import { config, library } from '@fortawesome/fontawesome-svg-core'
 import { faStar, faCircle, faLongArrowAltRight } from '@fortawesome/free-solid-svg-icons'
 import '@fortawesome/fontawesome-svg-core/styles.css'
+import 'prismjs/themes/prism.css'
 
 config.autoAddCss = false;
 library.add(faStar, faCircle, faLongArrowAltRight);
