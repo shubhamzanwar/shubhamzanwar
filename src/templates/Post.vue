@@ -14,7 +14,7 @@
     <img :src="$page.post.coverImage" class="cover" alt="" />
     <div class="coverCredit" v-html="$page.post.coverCredit" />
     <div class="post-content">
-      <p v-html="$page.post.content" />
+      <div v-html="$page.post.content" />
     </div>
     <divider />
     <Disqus shortname="shubhamzanwarblog" :identifier="$page.post.title" />
