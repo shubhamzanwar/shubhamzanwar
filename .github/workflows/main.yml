@@ -30,7 +30,6 @@ jobs:
         git clone https://github.com/shubhamzanwar/shubhamzanwar.github.io
         rm -rf ./shubhamzanwar.github.io/*
         mv -v ./dist/* ./shubhamzanwar.github.io
-        mv ./src/assets/resume.pdf ./shubhamzanwar.github.io/resume.pdf
         cd shubhamzanwar.github.io
         git add .
         git commit --allow-empty -m "updating project from github"
