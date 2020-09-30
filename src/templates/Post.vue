@@ -2,9 +2,13 @@
   <Layout :maxWidth="900">
     <div class="title-wrapper">
       <div class="post-title">{{ $page.post.title }}</div>
-      <div class="post-sub-title">{{ $page.post.subTitle }}</div>
-      <div class="post-time">
-        {{ $page.post.date }} | {{ coffee }} {{ $page.post.timeToRead }} min read
+      <div class="post-profile">
+        <img src="https://avatars3.githubusercontent.com/u/15626155?s=460&u=a3e6e7405b70c13789dfa5ae43d7ae81c0f1b58b&v=4" alt="shubham zanwar's mugshot" class="profile-pic">
+        <div class="profile-meta">
+          <div class="author-name"><a href="/blog">Shubham Zanwar</a></div>
+          <div class="date">Published on <strong>{{ $page.post.date }}</strong></div>
+          <div class="time-to-read">{{ coffee }} {{ $page.post.timeToRead }} min read</div>
+        </div>
       </div>
     </div>
     <img :src="$page.post.coverImage" class="cover" alt="" />
@@ -68,8 +72,8 @@ export default {
 
 <style>
 .title-wrapper {
-  text-align: center;
-  margin: 3rem 0 1.5rem;
+  /* text-align: center; */
+  margin: 3rem 0 0;
 }
 .post-title {
   font-weight: 500;
@@ -81,8 +85,39 @@ export default {
   font-size: 1.5rem;
 }
 
-.post-time {
-  margin-top: 0.5rem;
+.post-profile {
+  margin: 0.75rem 0 1rem;
+  padding: 1rem 0;
+  display: flex;
+  align-items: center;
+  border-top: 1px solid #E5E5E5;
+  border-bottom: 1px solid #E5E5E5;
+}
+
+.profile-pic {
+  height: 64px;
+  border-radius: 50%;
+}
+
+.profile-meta {
+  margin-left: 1rem;
+}
+
+.author-name {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.author-name > a {
+  color: #000;
+  text-decoration: none;
+}
+
+.date {
+  color: #999;
+}
+
+.time-to-read {
   color: #999;
 }
 
@@ -97,12 +132,18 @@ export default {
   margin-top: 0.2rem;
 }
 
-.coverCredit a {
+.coverCredit > a {
   color: #999;
 }
 
 .post-content {
   margin-top: 1rem;
   font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+  .profile-pic {
+    height: 50px;
+  }
 }
 </style>
