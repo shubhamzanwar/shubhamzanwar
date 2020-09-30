@@ -3,12 +3,13 @@
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import { config, library } from '@fortawesome/fontawesome-svg-core'
 import { faStar, faCircle, faLongArrowAltRight } from '@fortawesome/free-solid-svg-icons'
+import { faGithub, faTwitter } from '@fortawesome/free-brands-svg-icons'
 import VueDisqus from 'vue-disqus'
 import '@fortawesome/fontawesome-svg-core/styles.css'
 import 'prismjs/themes/prism.css'
 
 config.autoAddCss = false;
-library.add(faStar, faCircle, faLongArrowAltRight);
+library.add(faStar, faCircle, faLongArrowAltRight, faGithub, faTwitter);
 
 import DefaultLayout from '~/layouts/Default.vue'
 
