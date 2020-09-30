@@ -3,11 +3,16 @@
     <div class="title-wrapper">
       <div class="post-title">{{ $page.post.title }}</div>
       <div class="post-profile">
-        <img src="https://avatars3.githubusercontent.com/u/15626155?s=460&u=a3e6e7405b70c13789dfa5ae43d7ae81c0f1b58b&v=4" alt="shubham zanwar's mugshot" class="profile-pic">
+        <!-- <g-image src="~/assets/home.png" class="banner-image" /> -->
+        <g-image src="~/assets/profile-picture.png" alt="shubham zanwar's mugshot" class="profile-pic" />
         <div class="profile-meta">
           <div class="author-name"><a href="/blog">Shubham Zanwar</a></div>
           <div class="date">Published on <strong>{{ $page.post.date }}</strong></div>
-          <div class="time-to-read">{{ coffee }} {{ $page.post.timeToRead }} min read</div>
+          <div class="social-wrapper">
+            <social-icon iconType="twitter" :link="links.twitter"/>
+            <social-icon iconType="github" :link="links.github"/>
+            <div class="time-to-read">{{ coffee }} {{ $page.post.timeToRead }} min read</div>
+          </div>
         </div>
       </div>
     </div>
@@ -40,10 +45,13 @@ query Post ($path: String!) {
 <script>
 import Divider from "../components/Divider";
 import { getCoffeeCount } from "../utils/getCoffeeCount";
+import profileLinks from '../constants/profileLinks.json';
+import SocialIcon from '../components/Blog/SocialIcon';
 
 export default {
   components: {
     Divider,
+    SocialIcon
   },
   metaInfo() {
     return {
@@ -68,6 +76,7 @@ export default {
     coffee() {
       return getCoffeeCount(this.$page.post.timeToRead);
     },
+    links() { return profileLinks }
   },
 };
 </script>
@@ -98,6 +107,7 @@ export default {
 
 .profile-pic {
   height: 64px;
+  width: 64px;
   border-radius: 50%;
 }
 
@@ -119,8 +129,14 @@ export default {
   color: #999;
 }
 
+.social-wrapper {
+  display: flex;
+  align-items: center;
+}
+
 .time-to-read {
   color: #999;
+  margin-left: 0.3rem;
 }
 
 .cover {
@@ -146,6 +162,7 @@ export default {
 @media (max-width: 768px) {
   .profile-pic {
     height: 50px;
+    width: 50px;
   }
 }
 </style>
