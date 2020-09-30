@@ -17,6 +17,8 @@
       <p v-html="$page.post.content" />
     </div>
     <divider />
+    <Disqus shortname="shubhamzanwarblog" :identifier="$page.post.title" />
+    <divider />
   </Layout>
 </template>
 

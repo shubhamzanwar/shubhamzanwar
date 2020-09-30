@@ -3,6 +3,7 @@
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import { config, library } from '@fortawesome/fontawesome-svg-core'
 import { faStar, faCircle, faLongArrowAltRight } from '@fortawesome/free-solid-svg-icons'
+import VueDisqus from 'vue-disqus'
 import '@fortawesome/fontawesome-svg-core/styles.css'
 import 'prismjs/themes/prism.css'
 
@@ -13,10 +14,11 @@ import DefaultLayout from '~/layouts/Default.vue'
 
 export default function (Vue, { router, head, isClient }) {
   // Set default layout as a global component
-  Vue.component('Layout', DefaultLayout)
-  Vue.component('font-awesome', FontAwesomeIcon)
+  Vue.component('Layout', DefaultLayout);
+  Vue.use(VueDisqus);
+  Vue.component('font-awesome', FontAwesomeIcon);
   head.link.push({
     rel: 'stylesheet',
     href: 'https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,400&display=swap'
-  })
+  });
 }
