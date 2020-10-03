@@ -13,7 +13,7 @@ const query = `query($number_of_repos: Int!){
                 name,
                 description,
                 url,
-                repositoryTopics(first: 5) {
+                repositoryTopics(first: 10) {
                     totalCount,
                     nodes { 
                         topic {
