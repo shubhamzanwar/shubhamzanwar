@@ -159,10 +159,20 @@ export default {
   font-size: 1.2rem;
 }
 
+blockquote {
+  border-left: 5px solid #999;
+  margin-inline-start: 0;
+  padding-inline-start: 2.5rem;
+  box-sizing: border-box;
+}
+
 @media (max-width: 768px) {
   .profile-pic {
     height: 50px;
     width: 50px;
+  }
+  blockquote {
+    border-left: 3px solid #999;
   }
 }
 </style>
