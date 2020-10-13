@@ -1,21 +1,33 @@
-[![banner](https://github.com/shubhamzanwar/shubhamzanwar/blob/master/banner.png?raw=true)](https://shubhamzanwar.github.io)
+# Hey ~cuties~ coders! 👋🏽
 
-## Tech I work with
+I'm Shubham, and I'm an awesome full stack developer. What it means is that I'm great at solving problems by reading other people's opinions online and straight-up copy-pasting code from stack overflow (Sorry, not sorry 😬)
 
-```react💙``` ```vue💚``` ```js💛``` ```nodejs``` ```react native📱``` ```AWS ⛅️```
+Outside work, I create and contribute to OSS. I think it's great fun🤘🏽. I also share my tech opinions through blog posts and by (infrequently) speaking at events and meetups 🎤
 
-## Currently working on
+If you're impressed by my elevator pitch, you can talk to me about some of the things I work with and some of the things I'm learning:
 
-```vue-nodegui```: A VueJS port to [nodegui](https://github.com/nodegui/nodegui) 🥳
+`HTML5` `CSS` `React💙` `Vue💚` `JS💛` `NodeJS` `NestJS♥️` `ReactNative📱` `AWS⛅️` `Terraform🛠` `Flutter🎯` `Svg animation💃🏻` `Webpack📦` `Redux⚛` `TypeScript💙` `Express🌱` `Next▲` `Docker🐳` `GraphQL🕸` `MongoDB🌱` `SCSS💗` `PostgreSQL🐘`
 
-```vue3 guide```: a guide to creating production ready applications using Vue 3 📖
+**Read some of the stuff I've written**
 
-```flippie```: A react based cards animations library. Find it [here](https://github.com/flipspace/flippie) 🧩
+1. [Design Patterns: Decorator Factory Pattern 🎁](https://shubhamzanwar.com/blog/design-patterns-decorator-factory-pattern/)
+2. [Electron alternative: Announcing vue-nodegui 🚀💚](https://shubhamzanwar.com/blog/electron-alternative-announcing-vue-nodegui/)
+3. [Design Patterns: Factory Pattern 🏭](https://shubhamzanwar.com/blog/design-patterns-factory-pattern/)
 
-## Stuff I'm learning
+Read more on [my blog](https://shubhamzanwar.com/blog) and [medium](https://medium.com/@zanwar.shubham)
 
-```terraform 🛠``` ```flutter 🎯```
+**Checkout some of my talks**
 
-## Reach out to me 
+1. [Vue nodegui introduction talk](https://shubhamzanwar.com/vue-nodegui-talk/)
+2. [React state management](https://shubhamzanwar.com/pizza-ordering-service/#/)
 
-[![medium](https://img.shields.io/badge/Medium-D2D1D1?logo=medium&style=for-the-badge)](https://medium.com/@zanwar.shubham) [![twitter](https://img.shields.io/badge/Twitter-D1CFFF?logo=twitter&style=for-the-badge)](https://twitter.com/szanwar22) [![github](https://img.shields.io/badge/Github-24292e?logo=github&style=for-the-badge)](https://github.com/shubhamzanwar) [![stackoverflow](https://img.shields.io/badge/Stackoverflow-aaa?logo=stackoverflow&style=for-the-badge)](https://stackoverflow.com/users/5301597/sershubham) [![linkedin](https://img.shields.io/badge/linkedin-8EBEFC?logo=linkedin&style=for-the-badge)](https://www.linkedin.com/in/zanwarshubham/)
+**Find me elsewhere on the web**
+
+1. Personal website🌐: [shubhamzanwar.com](https://shubhamzanwar.com)
+2. Twitter🐦: [@szanwar22](https://twitter.com/szanwar22)
+3. Instagram🌄: [shubhamzanwar](https://instagram.com/shubhamzanwar)
+4. Email💌: [zanwar.shubham@gmail.com](mailto://zanwar.shubham@gmail.com)
+5. Dev⬛️: [shubhamzanwar](https://dev.to/shubhamzanwar)
+6. Ph No📞:
+
+PS: If you can't already tell my reading this page, I love emojis 🤩
