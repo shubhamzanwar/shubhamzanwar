@@ -4,7 +4,7 @@ I'm Shubham, and I'm an awesome full stack developer. What it means is that I'm 
 
 Outside work, I create and contribute to OSS. I think it's great fun🤘🏽. I also share my tech opinions through blog posts and by (infrequently) speaking at events and meetups 🎤
 
-If you're impressed by my elevator pitch, you can talk to me about some of the things I work with and some of the things I'm learning:
+If you're impressed by my elevator pitch, you can talk to me about beer, football, the beatles and chess. Alternatively, you can also choose to discuss some of the things I work with and some of the things I'm learning:
 
 `HTML5` `CSS` `React💙` `Vue💚` `JS💛` `NodeJS` `NestJS♥️` `ReactNative📱` `AWS⛅️` `Terraform🛠` `Flutter🎯` `Svg animation💃🏻` `Webpack📦` `Redux⚛` `TypeScript💙` `Express🌱` `Next▲` `Docker🐳` `GraphQL🕸` `MongoDB🌱` `SCSS💗` `PostgreSQL🐘`
 
