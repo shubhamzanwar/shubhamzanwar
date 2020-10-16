@@ -72,7 +72,27 @@ export default {
         {
           property: 'og:image',
           content: `https://shubhamzanwar.com${this.$page.post.coverImage}`
-        }
+        },
+        {
+          property: 'twitter:card',
+          content: 'summary'
+        },
+        {
+          property: 'twitter:site',
+          content: '@szanwar22'
+        },
+        {
+          property: 'twitter:title',
+          content: this.$page.post.title
+        },
+        {
+          property: 'twitter:description',
+          content: this.$page.post.subTitle
+        },
+        {
+          property: 'twitter:image',
+          content: `https://shubhamzanwar.com${this.$page.post.coverImage}`
+        },
       ]
     }
   },
