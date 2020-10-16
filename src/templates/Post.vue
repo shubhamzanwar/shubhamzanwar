@@ -69,6 +69,10 @@ export default {
           property: 'og:description',
           content: this.$page.post.subTitle
         },
+        {
+          property: 'og:image',
+          content: `https://shubhamzanwar.com${this.$page.post.coverImage}`
+        }
       ]
     }
   },
