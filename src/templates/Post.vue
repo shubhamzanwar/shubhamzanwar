@@ -166,6 +166,10 @@ blockquote {
   box-sizing: border-box;
 }
 
+code {
+  background: #f5f2f0;
+}
+
 @media (max-width: 768px) {
   .profile-pic {
     height: 50px;
