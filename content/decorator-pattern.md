@@ -1,6 +1,6 @@
 ---
-title: "Design Patterns: Decorator Factory Pattern 🎁"
-subTitle: "Taking a look at the decorator factory design pattern with an implementation in go"
+title: "Design Patterns: Decorator Pattern 🎁"
+subTitle: "Taking a look at the decorator design pattern with an implementation in go"
 coverImage: "/img/design-pattern.jpg"
 coverCredit: "Photo by <a href=\"https://unsplash.com/@eskandthewood?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText\">Silvio Kundt</a> on <a href=\"https://unsplash.com/s/photos/pattern?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText\">Unsplash</a>"
 date: 2020-10-06
