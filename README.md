@@ -4,7 +4,7 @@ I'm Shubham, and I'm an awesome full stack developer. What it means is that I'm 
 
 Outside work, I create and contribute to OSS. I think it's great fun🤘🏽. I also share my tech opinions through blog posts and by (infrequently) speaking at events and meetups 🎤
 
-If you're impressed by my elevator pitch, you can talk to me about some of the things I work with and some of the things I'm learning:
+If you're impressed by my elevator pitch, you can talk to me about beer, football, the beatles and chess. Alternatively, you can also choose to discuss some of the things I work with and some of the things I'm learning:
 
 `HTML5` `CSS` `React💙` `Vue💚` `JS💛` `NodeJS` `NestJS♥️` `ReactNative📱` `AWS⛅️` `Terraform🛠` `Flutter🎯` `Svg animation💃🏻` `Webpack📦` `Redux⚛` `TypeScript💙` `Express🌱` `Next▲` `Docker🐳` `GraphQL🕸` `MongoDB🌱` `SCSS💗` `PostgreSQL🐘`
 
@@ -25,9 +25,10 @@ Read more on [my blog](https://shubhamzanwar.com/blog) and [medium](https://medi
 
 1. Personal website🌐: [shubhamzanwar.com](https://shubhamzanwar.com)
 2. Twitter🐦: [@szanwar22](https://twitter.com/szanwar22)
-3. Instagram🌄: [shubhamzanwar](https://instagram.com/shubhamzanwar)
-4. Email💌: [zanwar.shubham@gmail.com](mailto://zanwar.shubham@gmail.com)
-5. Dev⬛️: [shubhamzanwar](https://dev.to/shubhamzanwar)
-6. Ph No📞:
+3. Linkedin👔: [shubham zanwar](https://www.linkedin.com/in/zanwarshubham/)
+4. Instagram🌄: [shubhamzanwar](https://instagram.com/shubhamzanwar)
+5. Email💌: [zanwar.shubham@gmail.com](mailto://zanwar.shubham@gmail.com)
+6. Dev⬛️: [shubhamzanwar](https://dev.to/shubhamzanwar)
+7. Ph No📞:
 
 PS: If you can't already tell my reading this page, I love emojis 🤩

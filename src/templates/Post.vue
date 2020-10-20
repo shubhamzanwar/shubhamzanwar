@@ -69,6 +69,30 @@ export default {
           property: 'og:description',
           content: this.$page.post.subTitle
         },
+        {
+          property: 'og:image',
+          content: `https://shubhamzanwar.com${this.$page.post.coverImage}`
+        },
+        {
+          property: 'twitter:card',
+          content: 'summary_large_image'
+        },
+        {
+          property: 'twitter:site',
+          content: '@szanwar22'
+        },
+        {
+          property: 'twitter:title',
+          content: this.$page.post.title
+        },
+        {
+          property: 'twitter:description',
+          content: this.$page.post.subTitle
+        },
+        {
+          property: 'twitter:image',
+          content: `https://shubhamzanwar.com${this.$page.post.coverImage}`
+        },
       ]
     }
   },
@@ -164,6 +188,10 @@ blockquote {
   margin-inline-start: 0;
   padding-inline-start: 2.5rem;
   box-sizing: border-box;
+}
+
+code {
+  background: #f5f2f0;
 }
 
 @media (max-width: 768px) {
