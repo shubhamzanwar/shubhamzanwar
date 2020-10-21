@@ -10,9 +10,9 @@ If you're impressed by my elevator pitch, you can talk to me about beer, footbal
 
 **Read some of the stuff I've written**
 
-1. [Design Patterns: Decorator Factory Pattern 🎁](https://shubhamzanwar.com/blog/design-patterns-decorator-factory-pattern/)
-2. [Electron alternative: Announcing vue-nodegui 🚀💚](https://shubhamzanwar.com/blog/electron-alternative-announcing-vue-nodegui/)
-3. [Design Patterns: Factory Pattern 🏭](https://shubhamzanwar.com/blog/design-patterns-factory-pattern/)
+1. [Developer workflow with GitHub CLI 👨🏻‍💻](https://shubhamzanwar.com/blog/your-daily-developer-workflow-with-git-hub-cli/)
+2. [Design Patterns: Decorator Pattern 🎁](https://shubhamzanwar.com/blog/design-patterns-decorator-pattern/)
+3. [Electron alternative: Announcing vue-nodegui 🚀💚](https://shubhamzanwar.com/blog/electron-alternative-announcing-vue-nodegui/)
 
 Read more on [my blog](https://shubhamzanwar.com/blog) and [medium](https://medium.com/@zanwar.shubham)
 
