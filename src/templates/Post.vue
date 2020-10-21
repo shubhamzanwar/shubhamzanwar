@@ -4,14 +4,22 @@
       <div class="post-title">{{ $page.post.title }}</div>
       <div class="post-profile">
         <!-- <g-image src="~/assets/home.png" class="banner-image" /> -->
-        <g-image src="~/assets/profile-picture.png" alt="shubham zanwar's mugshot" class="profile-pic" />
+        <g-image
+          src="~/assets/profile-picture.png"
+          alt="shubham zanwar's mugshot"
+          class="profile-pic"
+        />
         <div class="profile-meta">
           <div class="author-name"><a href="/blog">Shubham Zanwar</a></div>
-          <div class="date">Published on <strong>{{ $page.post.date }}</strong></div>
+          <div class="date">
+            Published on <strong>{{ $page.post.date }}</strong>
+          </div>
           <div class="social-wrapper">
-            <social-icon iconType="twitter" :link="links.twitter"/>
-            <social-icon iconType="github" :link="links.github"/>
-            <div class="time-to-read">{{ coffee }} {{ $page.post.timeToRead }} min read</div>
+            <social-icon iconType="twitter" :link="links.twitter" />
+            <social-icon iconType="github" :link="links.github" />
+            <div class="time-to-read">
+              {{ coffee }} {{ $page.post.timeToRead }} min read
+            </div>
           </div>
         </div>
       </div>
@@ -45,62 +53,64 @@ query Post ($path: String!) {
 <script>
 import Divider from "../components/Divider";
 import { getCoffeeCount } from "../utils/getCoffeeCount";
-import profileLinks from '../constants/profileLinks.json';
-import SocialIcon from '../components/Blog/SocialIcon';
+import profileLinks from "../constants/profileLinks.json";
+import SocialIcon from "../components/Blog/SocialIcon";
 
 export default {
   components: {
     Divider,
-    SocialIcon
+    SocialIcon,
   },
   metaInfo() {
     return {
       title: this.$page.post.title,
       meta: [
         {
-          name: 'description',
-          content: this.$page.post.subTitle
+          name: "description",
+          content: this.$page.post.subTitle,
         },
         {
-          property: 'og:title',
-          content: this.$page.post.title
+          property: "og:title",
+          content: this.$page.post.title,
         },
         {
-          property: 'og:description',
-          content: this.$page.post.subTitle
+          property: "og:description",
+          content: this.$page.post.subTitle,
         },
         {
-          property: 'og:image',
-          content: `https://shubhamzanwar.com${this.$page.post.coverImage}`
+          property: "og:image",
+          content: `https://shubhamzanwar.com${this.$page.post.coverImage}`,
         },
         {
-          property: 'twitter:card',
-          content: 'summary_large_image'
+          property: "twitter:card",
+          content: "summary_large_image",
         },
         {
-          property: 'twitter:site',
-          content: '@szanwar22'
+          property: "twitter:site",
+          content: "@szanwar22",
         },
         {
-          property: 'twitter:title',
-          content: this.$page.post.title
+          property: "twitter:title",
+          content: this.$page.post.title,
         },
         {
-          property: 'twitter:description',
-          content: this.$page.post.subTitle
+          property: "twitter:description",
+          content: this.$page.post.subTitle,
         },
         {
-          property: 'twitter:image',
-          content: `https://shubhamzanwar.com${this.$page.post.coverImage}`
+          property: "twitter:image",
+          content: `https://shubhamzanwar.com${this.$page.post.coverImage}`,
         },
-      ]
-    }
+      ],
+    };
   },
   computed: {
     coffee() {
       return getCoffeeCount(this.$page.post.timeToRead);
     },
-    links() { return profileLinks }
+    links() {
+      return profileLinks;
+    },
   },
 };
 </script>
@@ -125,8 +135,8 @@ export default {
   padding: 1rem 0;
   display: flex;
   align-items: center;
-  border-top: 1px solid #E5E5E5;
-  border-bottom: 1px solid #E5E5E5;
+  border-top: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
 }
 
 .profile-pic {
@@ -192,6 +202,10 @@ blockquote {
 
 code {
   background: #f5f2f0;
+}
+
+p > img {
+  width: 100%;
 }
 
 @media (max-width: 768px) {
