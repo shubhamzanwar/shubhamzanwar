@@ -3,7 +3,7 @@ title: "Design Patterns: Flyweight Pattern ⚖️"
 subTitle: "Taking a look at the flyweight design pattern with an implementation in go"
 coverImage: "/img/design-pattern-flyweight.jpg"
 coverCredit: "Photo by <a href=\"https://unsplash.com/@1walter2?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText\">Johann Walter Bantz</a> on <a href=\"https://unsplash.com/s/photos/boxing?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText\">Unsplash</a>"
-date: 2020-10-25
+date: 2020-10-31
 ---
 
 The Flyweight design pattern is a structural design pattern commonly used when we want to group similar data for multiple objects. The primary intent of this pattern is to store common data for multiple objects in a single place and hence optimise for memory usage.
