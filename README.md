@@ -10,9 +10,9 @@ If you're impressed by my elevator pitch, you can talk to me about beer, footbal
 
 **Read some of the stuff I've written**
 
-1. [Design Patterns: Flyweight Pattern ⚖️](https://shubhamzanwar.com/blog/design-patterns-flyweight-pattern/)
-2. [Developer workflow with GitHub CLI 👨🏻‍💻](https://shubhamzanwar.com/blog/your-daily-developer-workflow-with-git-hub-cli/)
-3. [Design Patterns: Decorator Pattern 🎁](https://shubhamzanwar.com/blog/design-patterns-decorator-pattern/)
+1. [Design Patterns: Chain of Responsibility ⛓](https://shubhamzanwar.com/blog/design-patterns-chain-of-responsibility/)
+2. [Design Patterns: Flyweight Pattern ⚖️](https://shubhamzanwar.com/blog/design-patterns-flyweight-pattern/)
+3. [Developer workflow with GitHub CLI 👨🏻‍💻](https://shubhamzanwar.com/blog/your-daily-developer-workflow-with-git-hub-cli/)
 4. [Electron alternative: Announcing vue-nodegui 🚀💚](https://shubhamzanwar.com/blog/electron-alternative-announcing-vue-nodegui/)
 
 Read more on [my blog](https://shubhamzanwar.com/blog) and [medium](https://medium.com/@zanwar.shubham)
