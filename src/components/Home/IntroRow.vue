@@ -1,27 +1,27 @@
 <template>
   <div class="intro-row">
       <div class="content">
-        I’m a software developer from 
-        <a href="https://goo.gl/maps/mn5mJev3FBNnU6GR8" target="_blank">Bangalore, India</a>. 
+        I’m an Indian software developer currently living in 
+        <a href="https://goo.gl/maps/KKJPp9zt7VAz8Crb7" target="_blank">Stockholm, Sweden</a>. 
         I’ve been designing and developing solutions since 2018
       </div>
       <div class="content margined-content">
-        I have been working in agile teams at 
-        <a href="https://www.mckinsey.com/business-functions/mckinsey-digital/how-we-help-clients" target="_blank">Mckinsey digital labs</a> 
-        and serving varied clients across different geographies
+        I currently work at <a href="https://anyfin.com/sv_SE">Anyfin AB</a> where we help our
+        customers improve their financial life by refinancing their existing loans and credit cards at lower rates.
       </div>
       <div class="content">
-        I also actively contribute to 
+        I love learning and experimenting in my free time. I also actively contribute to 
         <a href="https://github.com/shubhamzanwar" target="_blank">open source projects</a> and maintain a 
         <a href="https://medium.com/@zanwar.shubham" target="_blank">blog</a> to document my learnings
       </div>
 
       <div class="mobile-content">
-        I’m a software developer from 
-        <a href="https://goo.gl/maps/mn5mJev3FBNnU6GR8" target="_blank">Bangalore, India</a>. 
-        I’ve been designing and developing solutions since 2018. I have been working in agile teams at 
-        <a href="https://www.mckinsey.com/business-functions/mckinsey-digital/how-we-help-clients" target="_blank">Mckinsey digital labs</a> 
-        and serving varied clients across different geographies. I also actively contribute to 
+        I’m an Indian software developer currently living in 
+        <a href="https://goo.gl/maps/KKJPp9zt7VAz8Crb7" target="_blank">Stockholm, Sweden</a>. 
+        I’ve been designing and developing solutions since 2018. I currently work at 
+        <a href="https://anyfin.com/sv_SE">Anyfin AB</a> where we help our
+        customers improve their financial life by refinancing their existing loans and credit cards at lower rates.
+        I love learning and experimenting in my free time. I also actively contribute to 
         <a href="https://github.com/shubhamzanwar" target="_blank">open source projects</a> and maintain a 
         <a href="https://medium.com/@zanwar.shubham" target="_blank">blog</a> to document my learnings
       </div>
