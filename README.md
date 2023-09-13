@@ -25,11 +25,8 @@ Read more on [my blog](https://shubhamzanwar.com/blog) and [medium](https://medi
 **Find me elsewhere on the web**
 
 1. Personal website🌐: [shubhamzanwar.com](https://shubhamzanwar.com)
-2. Twitter🐦: [@szanwar22](https://twitter.com/szanwar22)
-3. Linkedin👔: [shubham zanwar](https://www.linkedin.com/in/zanwarshubham/)
-4. Instagram🌄: [shubhamzanwar](https://instagram.com/shubhamzanwar)
-5. Email💌: [zanwar.shubham@gmail.com](mailto://zanwar.shubham@gmail.com)
-6. Dev⬛️: [shubhamzanwar](https://dev.to/shubhamzanwar)
-7. Ph No📞:
+2. Linkedin👔: [shubham zanwar](https://www.linkedin.com/in/zanwarshubham/)
+3. Email💌: [zanwar.shubham@gmail.com](mailto://zanwar.shubham@gmail.com)
+4. Dev⬛️: [shubhamzanwar](https://dev.to/shubhamzanwar)
 
 PS: If you can't already tell my reading this page, I love emojis 🤩
