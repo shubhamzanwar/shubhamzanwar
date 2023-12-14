@@ -6,8 +6,8 @@
         I’ve been designing and developing solutions since 2018
       </div>
       <div class="content margined-content">
-        I currently work at <a href="https://anyfin.com/sv_SE">Anyfin AB</a> where we help our
-        customers improve their financial life by refinancing their existing loans and credit cards at lower rates.
+        I currently work at <a href="https://mimohq.com">Mimo</a> where we help our
+        clients simplify the invoice paying and getting paid experience
       </div>
       <div class="content">
         I love learning and experimenting in my free time. I also actively contribute to 
@@ -19,8 +19,8 @@
         I’m an Indian software developer currently living in 
         <a href="https://goo.gl/maps/KKJPp9zt7VAz8Crb7" target="_blank">Stockholm, Sweden</a>. 
         I’ve been designing and developing solutions since 2018. I currently work at 
-        <a href="https://anyfin.com/sv_SE">Anyfin AB</a> where we help our
-        customers improve their financial life by refinancing their existing loans and credit cards at lower rates.
+        <a href="https://mimohq.com">Mimo</a> where we help our
+        clients simplify the invoice paying and getting paid experience
         I love learning and experimenting in my free time. I also actively contribute to 
         <a href="https://github.com/shubhamzanwar" target="_blank">open source projects</a> and maintain a 
         <a href="https://medium.com/@zanwar.shubham" target="_blank">blog</a> to document my learnings
