@@ -1,4 +1,4 @@
-# Hey ~cuties~ coders! 👋🏽
+# Hey ~coders~ clauders! 👋🏽
 
 I'm Shubham, and I'm an awesome full stack developer. What it means is that I'm great at solving problems by reading other people's opinions online and straight-up copy-pasting code from stack overflow (Sorry, not sorry 😬)
 
