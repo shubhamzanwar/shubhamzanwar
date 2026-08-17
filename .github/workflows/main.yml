@@ -1,6 +1,6 @@
 name: CI
 
-on: 
+on:
   schedule:
   - cron: '0 1 * * *'
   push:
@@ -11,25 +11,26 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v1
+    - uses: actions/checkout@v4
 
-    - uses: actions/setup-node@v1
+    - uses: actions/setup-node@v4
       with:
-        node-version: '10.x'
-    
+        node-version: '22.x'
+
     - name: set up git
       run: |
         git config --global user.username ShubhamZanwar
         git config --global user.name ShubhamZanwar
         git config --global user.email zanwar.shubham@gmail.com
-    - name: clone repo
+    - name: build and deploy
       run: |
-        yarn
+        npm ci
         node index.js ${{secrets.ACCESS_TOKEN}} 41
-        yarn build
+        npm run build
         git clone https://github.com/shubhamzanwar/shubhamzanwar.github.io
         rm -rf ./shubhamzanwar.github.io/*
-        mv -v ./dist/* ./shubhamzanwar.github.io
+        mv -v ./out/* ./shubhamzanwar.github.io
+        touch ./shubhamzanwar.github.io/.nojekyll
         cd shubhamzanwar.github.io
         git add .
         git commit --allow-empty -m "updating project from github"

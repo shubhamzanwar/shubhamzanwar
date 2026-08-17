@@ -1,8 +1,7 @@
 *.log
-.cache
 .DS_Store
-src/.temp
 node_modules
-dist
+.next
+out
 .env
 .env.*
